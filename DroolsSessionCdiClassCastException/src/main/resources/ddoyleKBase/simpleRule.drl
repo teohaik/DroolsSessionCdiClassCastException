@@ -1,0 +1,8 @@
+package org.jboss.ddoyle.brms.cep.ha.management
+
+rule "SimpleRule"
+when
+	$s1: String()
+then
+	System.out.println("Found a String: " + $s1);
+end

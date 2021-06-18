@@ -5,7 +5,7 @@
 	<artifactId>DroolsSessionCdiClassCastException</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-		<org.drools.version>6.0.0.CR4-Pre1</org.drools.version>
+		<org.drools.version>6.0.0.Final</org.drools.version>
 		<!-- Defines the main class to be execute when running java -jar command -->
 		<main.class>org.jboss.ddoyle.brms.cep.ha.Main</main.class>
 	</properties>
@@ -81,13 +81,13 @@
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-core</artifactId>
-			<version>1.0.13</version>
+			<version>1.1.11</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
-			<version>1.0.13</version>
+			<version>1.1.11</version>
 			<scope>compile</scope>
 		</dependency>
 		<!-- Bit stupid, but we use these classes in this reproducer, so that's why their scope is set to 'compile'. -->
